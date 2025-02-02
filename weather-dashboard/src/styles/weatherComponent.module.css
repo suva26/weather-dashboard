@@ -1,0 +1,39 @@
+.weatherInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .weatherDetails {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .weatherCondition img {
+    width: 50px;
+  }
+  
+  .temp h3 {
+    font-size: 2.5rem;
+  }
+  
+  .otherDetails {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
